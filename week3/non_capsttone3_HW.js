@@ -5,9 +5,10 @@
 
   // // Create a greetCustomer function that prints a message that // welcomes a guest, then informs them of the available toppings by
   // looping over pizzaToppings (don't worry about perfect grammar here// yet, i.e. "a, b, and c", see Bonus Challenge #9)
-  const greetCustomer = (arr) => {
-      console.log(`Welcome to Pizza House, our toppings are ${arr}`)
-
+  const greetCustomer = (arrs) => {
+   
+      const welcomeString = `Welcome to Pizza House, our toppings are ${arrs.map(el => el)}`
+      console.log(welcomeString)
   };
 
   greetCustomer(pizzaToppings);
