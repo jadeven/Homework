@@ -11,12 +11,13 @@ h3 {
   text-decoration: underline;
 }
 
-ul {
+h3 + ul {
   list-style-position: inside;
   list-style-type: none;
   padding-left: 0;
   text-align: center;
   margin: -15px;
+  color: green;
 
   /* margin-top: 0px; */
 }
