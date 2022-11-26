@@ -1,36 +1,53 @@
 html {
-    background-color: antiquewhite;
+  background-color: antiquewhite;
+}
+
+/* @media (min-width: 375px) {
+  html {
+    background-color: blue;
   }
-  
-  body {
-    text-align: center;
-    font-size: 18px;
-  }
-  
-  h1 {
-    font-size: 50px;
-  }
-  
-  img {
-    height: 100%;
-  }
-  
-  div {
-    border: 2px solid burlywood;
-    margin: 10px;
-  }
-  
+} */
+
+body {
+  text-align: center;
+  font-size: 18px;
+}
+a
+h1 {
+  font-size: 50px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+div {
+  border: 2px solid burlywood;
+  margin: 10px;
+}
+
+#introPic {
+  float: left;
+}
+
+#bio {
+  float: right;
+}
+
+@media (min-width: 375px) {
   #introPic {
-    float: left;
+    float: none;
   }
-  
   #bio {
-    float: right;
+    float: none;
   }
-  #bio > li {
-    padding: 2px;
-  }
-  
-  #pro {
-    width: auto;
-  }
+}
+
+#bio > li {
+  padding: 2px;
+}
+
+#pro {
+  width: auto;
+}

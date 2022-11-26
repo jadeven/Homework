@@ -723,7 +723,7 @@ const posts = [
 
   // then, create a list of title and body pairs
   const user5List = filteredUser5List();
-  
+
   const titleBodyFunc = (user5List) => {
     const list = [];
     user5List.map((el) => list.push({ title: el.title, body: el.body }));
@@ -731,3 +731,4 @@ const posts = [
   };
 
   console.log('title and body paris',titleBodyFunc(user5List))
+  
